@@ -33,6 +33,17 @@ test = ["anyio[trio]", "coverage[toml] (>=4.5)", "hypothesis (>=4.0)", "mock (>=
 trio = ["trio (<0.22)"]
 
 [[package]]
+name = "attr"
+version = "0.3.2"
+description = "Simple decorator to set attributes of target function or class in a DRY way."
+optional = false
+python-versions = "*"
+files = [
+    {file = "attr-0.3.2-py2.py3-none-any.whl", hash = "sha256:4f4bffeea8c27387bde446675a7ac24f3b8fea1075f12d849b5f5c5181fc8336"},
+    {file = "attr-0.3.2.tar.gz", hash = "sha256:1ceebca768181cdcce9827611b1d728e592be5d293911539ea3d0b0bfa1146f4"},
+]
+
+[[package]]
 name = "attrs"
 version = "23.1.0"
 description = "Classes Without Boilerplate"
@@ -905,4 +916,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "82e2d787341651c071174c83e2e74a6913d71c9d2e0d581d264cc9b970bfdadf"
+content-hash = "a2592b7ec4cb25761e4eb965209ceb2af2ff251b199ef7fb6e6b6f64cb921d74"

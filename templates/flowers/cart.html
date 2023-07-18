@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+    In the cart:
+
+    {%for flower in flowers%}
+        <p> Name: {{flower.name}} Amount: {{flower.count}} Cost: {{flower.cost}} </p>
+    {%endfor%}
+</body>
+</html>
